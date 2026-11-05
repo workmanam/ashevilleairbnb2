@@ -109,7 +109,7 @@ airbnb_listings = L.geoJson.ajax("assets/airbnb_listings.geojson",{
       else { id = 2;} // All other property types from attribute table
       return L.marker(latlng, {icon: L.divIcon({className: 'fab fa-airbnb marker-color-' + (id + 1).toString() })});
   },
-    attribution: 'Airbnb Listings &copy; Inside Airbnb | Asheville Zoning Districts &copy; City of Asheville Open Data | Base Map &copy; CartoDB | Map Author: '
+    attribution: 'Airbnb Listings &copy; Inside Airbnb | Asheville Zoning Districts &copy; City of Asheville Open Data | Base Map &copy; CartoDB | Map Author: Aidan Workman'
 }).addTo(mymap);
 
 // 6. Set function for color ramp
